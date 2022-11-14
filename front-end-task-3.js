@@ -84,7 +84,6 @@ function showOptionMenu(mainMenu, optionMenu) {
 }
 
 
-
 function checkMenuMouseLeave(menu, optionMenus) {
   setTimeout(function () {
     if (menu.classList.contains(MAIN_MENU_LEAVE) && !menu.classList.contains(OPTION_MENU_OVER)) {

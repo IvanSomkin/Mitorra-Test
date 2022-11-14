@@ -10,6 +10,5 @@ $dbName = getenv('MITORRA_TASK_DATABASE_NAME');
 try {
   $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 } catch (exception $e) {
-  echo ('Connection failed! ' . $e->getMessage());
-  exit();
+  exit('Connection failed! ' . $e->getMessage());
 }
